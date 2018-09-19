@@ -1,0 +1,40 @@
+<!--
+  Generated template for the FirstPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  
+
+</ion-header>
+
+
+<ion-content padding>
+
+ 
+
+    <ion-list>
+
+        <ion-item>
+          <ion-label fixed>Username</ion-label>
+          <ion-input type="text" #uname></ion-input>
+        </ion-item>
+      
+        <ion-item>`
+          <ion-label fixed>Password</ion-label>
+          <ion-input type="password" #pword></ion-input>
+        </ion-item>
+      
+      </ion-list>
+
+
+      <div id="firstPageButtons">
+          <button ion-button (click)="SignIn()">Sign In</button>
+        
+  <button ion-button  (click)="popThis()" color=danger>Go Back</button>
+      </div>
+
+      <div class="background_image"></div>
+</ion-content>
